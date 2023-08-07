@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GABA2 Validation</title>
+    <link rel="stylesheet" href="gaba2 style.css">
+    <script src="gaba2 script.js"></script>
+</head>
+<body>
+    <div class="ExperimentDropdown">
+        <select id="experiment" onchange="showExperiment()" style="width: 20%">
+            <option value="071823 tiam2 lgfbpl1 gad2">071823 tiam2 lgfbpl1 gad2</option>
+            <option value="072823 lrp8 lgfbpl1 gad2">072823 lrp8 lgfbpl1 gad2</option>
+        </select>
+    </div>
+
+    <div id="071823 tiam2 lgfbpl1 gad2">
+        <select id="071823" onchange="showBrain071823()" style="width: 10%">
+            <option value="p35 m1 bottom L">p35 m1 bottom L</option>
+            <option value="p35 m1 top L">p35 m1 top L</option>
+            <option value="p55 m1 bottom L">p55 m1 bottom L</option>
+            <option value="p55 m1 top L">p55 m1 top L</option>
+            <option value="p120 m1 bottom L">p120 m1 bottom L</option>
+            <option value="p120 m1 top L">p120 m1 top L</option>
+        </select>
+
+        <div id="p35 m1 bottom L" class="set">
+            <label for="dapiCheck" style="color:blue">hide dapi</label>
+            <input type="checkbox" class="dapiCheck" onclick="checkbox('p35 m1 bottom L dapi')">
+            <label for="tiam2Check" style="color:red">hide tiam2</label>
+            <input type="checkbox" class="tiam2Check" onclick="checkbox('p35 m1 bottom L tiam2')">
+            <label for="lgfbpl1Check" style="color:palevioletred">hide lgfbpl1</label>
+            <input type="checkbox" class="lgfbpl1Check" onclick="checkbox('p35 m1 bottom L lgfbpl1')">
+            <label for="gad2Check" style="color:green">hide gad2</label>
+            <input type="checkbox" class="gad2Check" onclick="checkbox('p35 m1 bottom L gad2')">
+            <img class='c1' id="p35 m1 bottom L tiam2" src="7.18.23 tiam2 lgfbpl1 gad2/p35_m1_bottom_L/fullFocusStitch/tiam2.png" />
+            <img class='c2' id="p35 m1 bottom L lgfbpl1" src="7.18.23 tiam2 lgfbpl1 gad2/p35_m1_bottom_L/fullFocusStitch/lgfbpl1.png" />
+            <img class='c3' id="p35 m1 bottom L gad2" src="7.18.23 tiam2 lgfbpl1 gad2/p35_m1_bottom_L/fullFocusStitch/gad2.png" />
+            <img class='dapi' id="p35 m1 bottom L dapi" src="7.18.23 tiam2 lgfbpl1 gad2/p35_m1_bottom_L/fullFocusStitch/dapi.png" />
+        </div>
+
+        <div id="p35 m1 top L" class="set">
+            <label for="dapiCheck" style="color:blue">hide dapi</label>
+            <input type="checkbox" class="dapiCheck" onclick="checkbox('p35 m1 top L dapi')">
+            <label for="tiam2Check" style="color:red">hide tiam2</label>
+            <input type="checkbox" class="tiam2Check" onclick="checkbox('p35 m1 top L tiam2')">
+            <label for="lgfbpl1Check" style="color:palevioletred">hide lgfbpl1</label>
+            <input type="checkbox" class="lgfbpl1Check" onclick="checkbox('p35 m1 top L lgfbpl1')">
+            <label for="gad2Check" style="color:green">hide gad2</label>
+            <input type="checkbox" class="gad2Check" onclick="checkbox('p35 m1 top L gad2')">
+            <img class='c1' id="p35 m1 top L tiam2" src="7.18.23 tiam2 lgfbpl1 gad2/p35_m1_top_L/fullFocusStitch/tiam2-1.png" />
+            <img class='c2' id="p35 m1 top L lgfbpl1" src="7.18.23 tiam2 lgfbpl1 gad2/p35_m1_top_L/fullFocusStitch/lgfbpl1-1.png" />
+            <img class='c3' id="p35 m1 top L gad2" src="7.18.23 tiam2 lgfbpl1 gad2/p35_m1_top_L/fullFocusStitch/gad2-1.png" />
+            <img class='dapi' id="p35 m1 top L dapi" src="7.18.23 tiam2 lgfbpl1 gad2/p35_m1_top_L/fullFocusStitch/dapi-1.png" />
+        </div>
+
+        <div id="p55 m1 bottom L" class="set">
+            <label for="dapiCheck" style="color:blue">hide dapi</label>
+            <input type="checkbox" class="dapiCheck" onclick="checkbox('p55 m1 bottom L dapi')">
+            <label for="tiam2Check" style="color:red">hide tiam2</label>
+            <input type="checkbox" class="tiam2Check" onclick="checkbox('p55 m1 bottom L tiam2')">
+            <label for="lgfbpl1Check" style="color:palevioletred">hide lgfbpl1</label>
+            <input type="checkbox" class="lgfbpl1Check" onclick="checkbox('p55 m1 bottom L lgfbpl1')">
+            <label for="gad2Check" style="color:green">hide gad2</label>
+            <input type="checkbox" class="gad2Check" onclick="checkbox('p55 m1 bottom L gad2')">
+            <img class='c1' id="p55 m1 bottom L tiam2" src="7.18.23 tiam2 lgfbpl1 gad2/p55_m1_bottom_L/fullFocusStitch/tiam2-1.png" />
+            <img class='c2' id="p55 m1 bottom L lgfbpl1" src="7.18.23 tiam2 lgfbpl1 gad2/p55_m1_bottom_L/fullFocusStitch/lgfbpl1-1.png" />
+            <img class='c3' id="p55 m1 bottom L gad2" src="7.18.23 tiam2 lgfbpl1 gad2/p55_m1_bottom_L/fullFocusStitch/gad2-1.png" />
+            <img class='dapi' id="p55 m1 bottom L dapi" src="7.18.23 tiam2 lgfbpl1 gad2/p55_m1_bottom_L/fullFocusStitch/dapi-1.png" />
+        </div>
+
+        <div id="p55 m1 top L" class="set">
+            <label for="dapiCheck" style="color:blue">hide dapi</label>
+            <input type="checkbox" class="dapiCheck" onclick="checkbox('p55 m1 top L dapi')">
+            <label for="tiam2Check" style="color:red">hide tiam2</label>
+            <input type="checkbox" class="tiam2Check" onclick="checkbox('p55 m1 top L tiam2')">
+            <label for="lgfbpl1Check" style="color:palevioletred">hide lgfbpl1</label>
+            <input type="checkbox" class="lgfbpl1Check" onclick="checkbox('p55 m1 top L lgfbpl1')">
+            <label for="gad2Check" style="color:green">hide gad2</label>
+            <input type="checkbox" class="gad2Check" onclick="checkbox('p55 m1 top L gad2')">
+            <img class='c1' id="p55 m1 top L tiam2" src="7.18.23 tiam2 lgfbpl1 gad2/p55_m1_top_L/fullFocusStitch/tiam2-1.png" />
+            <img class='c2' id="p55 m1 top L lgfbpl1" src="7.18.23 tiam2 lgfbpl1 gad2/p55_m1_top_L/fullFocusStitch/lgfbpl1-1.png" />
+            <img class='c3' id="p55 m1 top L gad2" src="7.18.23 tiam2 lgfbpl1 gad2/p55_m1_top_L/fullFocusStitch/gad2-1.png" />
+            <img class='dapi' id="p55 m1 top L dapi" src="7.18.23 tiam2 lgfbpl1 gad2/p55_m1_top_L/fullFocusStitch/dapi-1.png" />
+        </div>
+
+        <div id="p120 m1 bottom L" class="set">
+            <label for="dapiCheck" style="color:blue">hide dapi</label>
+            <input type="checkbox" class="dapiCheck" onclick="checkbox('p120 m1 bottom L dapi')">
+            <label for="tiam2Check" style="color:red">hide tiam2</label>
+            <input type="checkbox" class="tiam2Check" onclick="checkbox('p120 m1 bottom L tiam2')">
+            <label for="lgfbpl1Check" style="color:palevioletred">hide lgfbpl1</label>
+            <input type="checkbox" class="lgfbpl1Check" onclick="checkbox('p120 m1 bottom L lgfbpl1')">
+            <label for="gad2Check" style="color:green">hide gad2</label>
+            <input type="checkbox" class="gad2Check" onclick="checkbox('p120 m1 bottom L gad2')">
+            <img class='c1' id="p120 m1 bottom L tiam2" src="7.18.23 tiam2 lgfbpl1 gad2/p120_m1_bottom_L/fullFocusStitch/tiam2-1.png" />
+            <img class='c2' id="p120 m1 bottom L lgfbpl1" src="7.18.23 tiam2 lgfbpl1 gad2/p120_m1_bottom_L/fullFocusStitch/lgfbpl1-1.png" />
+            <img class='c3' id="p120 m1 bottom L gad2" src="7.18.23 tiam2 lgfbpl1 gad2/p120_m1_bottom_L/fullFocusStitch/gad2-1.png" />
+            <img class='dapi' id="p120 m1 bottom L dapi" src="7.18.23 tiam2 lgfbpl1 gad2/p120_m1_bottom_L/fullFocusStitch/dapi-1.png" />
+        </div>
+
+        <div id="p120 m1 top L" class="set">
+            <label for="dapiCheck" style="color:blue">hide dapi</label>
+            <input type="checkbox" class="dapiCheck" onclick="checkbox('p120 m1 top L dapi')">
+            <label for="tiam2Check" style="color:red">hide tiam2</label>
+            <input type="checkbox" class="tiam2Check" onclick="checkbox('p120 m1 top L tiam2')">
+            <label for="lgfbpl1Check" style="color:palevioletred">hide lgfbpl1</label>
+            <input type="checkbox" class="lgfbpl1Check" onclick="checkbox('p120 m1 top L lgfbpl1')">
+            <label for="gad2Check" style="color:green">hide gad2</label>
+            <input type="checkbox" class="gad2Check" onclick="checkbox('p120 m1 top L gad2')">
+            <img class='c1' id="p120 m1 top L tiam2" src="7.18.23 tiam2 lgfbpl1 gad2/p120_m1_top_L/fullFocusStitch/tiam2-1.png" />
+            <img class='c2' id="p120 m1 top L lgfbpl1" src="7.18.23 tiam2 lgfbpl1 gad2/p120_m1_top_L/fullFocusStitch/lgfbpl1-1.png" />
+            <img class='c3' id="p120 m1 top L gad2" src="7.18.23 tiam2 lgfbpl1 gad2/p120_m1_top_L/fullFocusStitch/gad2-1.png" />
+            <img class='dapi' id="p120 m1 top L dapi" src="7.18.23 tiam2 lgfbpl1 gad2/p120_m1_top_L/fullFocusStitch/dapi-1.png" />
+        </div>
+    </div>
+
+    <div id="072823 lrp8 lgfbpl1 gad2" style="display: none;">
+        <select id="072823" onchange="showBrain072823()" style="width: 10%">
+            <option value="p35 m2 breg0.7 L">p35 m2 breg0.7 L</option>
+            <option value="p35 m2 breg1 L">p35 m2 breg1 L</option>
+            <option value="p35 m2 breg1.4 L">p35 m2 breg1.4 L</option>
+            <option value="p55 m2 breg0.7 L">p55 m2 breg0.7 L</option>
+            <option value="p55 m2 breg1 L">p55 m2 breg1 L</option>
+            <option value="p55 m2 breg1.4 L">p55 m2 breg1.4 L</option>
+            <option value="p120 m2 breg0.7 R">p120 m2 breg0.7 R</option>
+            <option value="p120 m2 breg1 L">p120 m2 breg1 L</option>
+            <option value="p120 m2 breg1.4 L">p120 m2 breg1.4 L</option>
+        </select>
+
+        <div id="p35 m2 breg0.7 L" style="display: none;">
+            <label for="dapiCheck" style="color:blue">hide dapi</label>
+            <input type="checkbox" class="dapiCheck" onclick="checkbox('p35 m2 breg0.7 L dapi')">
+            <label for="lrp8Check" style="color:palevioletred">hide lrp8</label>
+            <input type="checkbox" class="tiam2Check" onclick="checkbox('p35 m2 breg0.7 L lrp8')">
+            <label for="lgfbpl1Check" style="color:red">hide lgfbpl1</label>
+            <input type="checkbox" class="lgfbpl1Check" onclick="checkbox('p35 m2 breg0.7 L lgfbpl1')">
+            <label for="gad2Check" style="color:green">hide gad2</label>
+            <input type="checkbox" class="gad2Check" onclick="checkbox('p35 m2 breg0.7 L gad2')">
+            <img class='c1' id="p35 m2 breg0.7 L lrp8" src="7.28.23 lrp8 lgfbpl1 gad2/p35_m2_breg0.7_L/fullFocusStitch/lrp8-1.png" />
+            <img class='c2' id="p35 m2 breg0.7 L lgfbpl1" src="7.28.23 lrp8 lgfbpl1 gad2/p35_m2_breg0.7_L/fullFocusStitch/lgfbpl1-1.png" />
+            <img class='c3' id="p35 m2 breg0.7 L gad2" src="7.28.23 lrp8 lgfbpl1 gad2/p35_m2_breg0.7_L/fullFocusStitch/gad2-1.png" />
+            <img class='dapi' id="p35 m2 breg0.7 L dapi" src="7.28.23 lrp8 lgfbpl1 gad2/p35_m2_breg0.7_L/fullFocusStitch/dapi-1.png" />
+        </div>
+
+        <div id="p35 m2 breg1 L" style="display: none;">
+            <label for="dapiCheck" style="color:blue">hide dapi</label>
+            <input type="checkbox" class="dapiCheck" onclick="checkbox('p35 m2 breg1 L dapi')">
+            <label for="lrp8Check" style="color:palevioletred">hide lrp8</label>
+            <input type="checkbox" class="tiam2Check" onclick="checkbox('p35 m2 breg1 L lrp8')">
+            <label for="lgfbpl1Check" style="color:red">hide lgfbpl1</label>
+            <input type="checkbox" class="lgfbpl1Check" onclick="checkbox('p35 m2 breg1 L lgfbpl1')">
+            <label for="gad2Check" style="color:green">hide gad2</label>
+            <input type="checkbox" class="gad2Check" onclick="checkbox('p35 m2 breg1 L gad2')">
+            <img class='c1' id="p35 m2 breg1 L lrp8" src="7.28.23 lrp8 lgfbpl1 gad2/p35_m2_breg1_L/fullFocusStitch/lrp8-0.png" />
+            <img class='c2' id="p35 m2 breg1 L lgfbpl1" src="7.28.23 lrp8 lgfbpl1 gad2/p35_m2_breg1_L/fullFocusStitch/lgfbpl1-0.png" />
+            <img class='c3' id="p35 m2 breg1 L gad2" src="7.28.23 lrp8 lgfbpl1 gad2/p35_m2_breg1_L/fullFocusStitch/gad2-0.png" />
+            <img class='dapi' id="p35 m2 breg1 L dapi" src="7.28.23 lrp8 lgfbpl1 gad2/p35_m2_breg1_L/fullFocusStitch/dapi-0.png" />
+        </div>
+
+        <div id="p35 m2 breg1.4 L" style="display: none;">
+            <label for="dapiCheck" style="color:blue">hide dapi</label>
+            <input type="checkbox" class="dapiCheck" onclick="checkbox('p35 m2 breg1.4 L dapi')">
+            <label for="lrp8Check" style="color:palevioletred">hide lrp8</label>
+            <input type="checkbox" class="tiam2Check" onclick="checkbox('p35 m2 breg1.4 L lrp8')">
+            <label for="lgfbpl1Check" style="color:red">hide lgfbpl1</label>
+            <input type="checkbox" class="lgfbpl1Check" onclick="checkbox('p35 m2 breg1.4 L lgfbpl1')">
+            <label for="gad2Check" style="color:green">hide gad2</label>
+            <input type="checkbox" class="gad2Check" onclick="checkbox('p35 m2 breg1.4 L gad2')">
+            <img class='c1' id="p35 m2 breg1.4 L lrp8" src="7.28.23 lrp8 lgfbpl1 gad2/p35_m2_breg1.4_L/fullFocusStitch/lrp8-0.png" />
+            <img class='c2' id="p35 m2 breg1.4 L lgfbpl1" src="7.28.23 lrp8 lgfbpl1 gad2/p35_m2_breg1.4_L/fullFocusStitch/lgfbpl1-0.png" />
+            <img class='c3' id="p35 m2 breg1.4 L gad2" src="7.28.23 lrp8 lgfbpl1 gad2/p35_m2_breg1.4_L/fullFocusStitch/gad2-0.png" />
+            <img class='dapi' id="p35 m2 breg1.4 L dapi" src="7.28.23 lrp8 lgfbpl1 gad2/p35_m2_breg1.4_L/fullFocusStitch/dapi-0.png" />
+        </div>
+
+        <div id="p55 m2 breg0.7 L" style="display: none;">
+            <label for="dapiCheck" style="color:blue">hide dapi</label>
+            <input type="checkbox" class="dapiCheck" onclick="checkbox('p55 m2 breg0.7 L dapi')">
+            <label for="lrp8Check" style="color:palevioletred">hide lrp8</label>
+            <input type="checkbox" class="tiam2Check" onclick="checkbox('p55 m2 breg0.7 L lrp8')">
+            <label for="lgfbpl1Check" style="color:red">hide lgfbpl1</label>
+            <input type="checkbox" class="lgfbpl1Check" onclick="checkbox('p55 m2 breg0.7 L lgfbpl1')">
+            <label for="gad2Check" style="color:green">hide gad2</label>
+            <input type="checkbox" class="gad2Check" onclick="checkbox('p55 m2 breg0.7 L gad2')">
+            <img class='c1' id="p55 m2 breg0.7 L lrp8" src="7.28.23 lrp8 lgfbpl1 gad2/p55_m2_breg0.7_L/fullFocusStitch/lrp8-0.png" />
+            <img class='c2' id="p55 m2 breg0.7 L lgfbpl1" src="7.28.23 lrp8 lgfbpl1 gad2/p55_m2_breg0.7_L/fullFocusStitch/lgfbpl1-0.png" />
+            <img class='c3' id="p55 m2 breg0.7 L gad2" src="7.28.23 lrp8 lgfbpl1 gad2/p55_m2_breg0.7_L/fullFocusStitch/gad2-0.png" />
+            <img class='dapi' id="p55 m2 breg0.7 L dapi" src="7.28.23 lrp8 lgfbpl1 gad2/p55_m2_breg0.7_L/fullFocusStitch/dapi-0.png" />
+        </div>
+
+        <div id="p55 m2 breg1 L" style="display: none;">
+            <label for="dapiCheck" style="color:blue">hide dapi</label>
+            <input type="checkbox" class="dapiCheck" onclick="checkbox('p55 m2 breg1 L dapi')">
+            <label for="lrp8Check" style="color:palevioletred">hide lrp8</label>
+            <input type="checkbox" class="tiam2Check" onclick="checkbox('p55 m2 breg1 L lrp8')">
+            <label for="lgfbpl1Check" style="color:red">hide lgfbpl1</label>
+            <input type="checkbox" class="lgfbpl1Check" onclick="checkbox('p55 m2 breg1 L lgfbpl1')">
+            <label for="gad2Check" style="color:green">hide gad2</label>
+            <input type="checkbox" class="gad2Check" onclick="checkbox('p55 m2 breg1 L gad2')">
+            <img class='c1' id="p55 m2 breg1 L lrp8" src="7.28.23 lrp8 lgfbpl1 gad2/p55_m2_breg1_L/fullFocusStitch/lrp8-0.png" />
+            <img class='c2' id="p55 m2 breg1 L lgfbpl1" src="7.28.23 lrp8 lgfbpl1 gad2/p55_m2_breg1_L/fullFocusStitch/lgfbpl1-0.png" />
+            <img class='c3' id="p55 m2 breg1 L gad2" src="7.28.23 lrp8 lgfbpl1 gad2/p55_m2_breg1_L/fullFocusStitch/gad2-0.png" />
+            <img class='dapi' id="p55 m2 breg1 L dapi" src="7.28.23 lrp8 lgfbpl1 gad2/p55_m2_breg1_L/fullFocusStitch/dapi-0.png" />
+        </div>
+
+        <div id="p55 m2 breg1.4 L" style="display: none;">
+            <label for="dapiCheck" style="color:blue">hide dapi</label>
+            <input type="checkbox" class="dapiCheck" onclick="checkbox('p55 m2 breg1.4 L dapi')">
+            <label for="lrp8Check" style="color:palevioletred">hide lrp8</label>
+            <input type="checkbox" class="tiam2Check" onclick="checkbox('p55 m2 breg1.4 L lrp8')">
+            <label for="lgfbpl1Check" style="color:red">hide lgfbpl1</label>
+            <input type="checkbox" class="lgfbpl1Check" onclick="checkbox('p55 m2 breg1.4 L lgfbpl1')">
+            <label for="gad2Check" style="color:green">hide gad2</label>
+            <input type="checkbox" class="gad2Check" onclick="checkbox('p55 m2 breg1.4 L gad2')">
+            <img class='c1' id="p55 m2 breg1.4 L lrp8" src="7.28.23 lrp8 lgfbpl1 gad2/p55_m2_breg1.4_L/fullFocusStitch/lrp8-0.png" />
+            <img class='c2' id="p55 m2 breg1.4 L lgfbpl1" src="7.28.23 lrp8 lgfbpl1 gad2/p55_m2_breg1.4_L/fullFocusStitch/lgfbpl1-0.png" />
+            <img class='c3' id="p55 m2 breg1.4 L gad2" src="7.28.23 lrp8 lgfbpl1 gad2/p55_m2_breg1.4_L/fullFocusStitch/gad2-0.png" />
+            <img class='dapi' id="p55 m2 breg1.4 L dapi" src="7.28.23 lrp8 lgfbpl1 gad2/p55_m2_breg1.4_L/fullFocusStitch/dapi-0.png" />
+        </div>
+
+        <div id="p120 m2 breg0.7 R" style="display: none;">
+            <label for="dapiCheck" style="color:blue">hide dapi</label>
+            <input type="checkbox" class="dapiCheck" onclick="checkbox('p120 m2 breg0.7 R dapi')">
+            <label for="lrp8Check" style="color:palevioletred">hide lrp8</label>
+            <input type="checkbox" class="tiam2Check" onclick="checkbox('p120 m2 breg0.7 R lrp8')">
+            <label for="lgfbpl1Check" style="color:red">hide lgfbpl1</label>
+            <input type="checkbox" class="lgfbpl1Check" onclick="checkbox('p120 m2 breg0.7 R lgfbpl1')">
+            <label for="gad2Check" style="color:green">hide gad2</label>
+            <input type="checkbox" class="gad2Check" onclick="checkbox('p120 m2 breg0.7 R gad2')">
+            <img class='c1' id="p120 m2 breg0.7 R lrp8" src="7.28.23 lrp8 lgfbpl1 gad2/p120_m2_breg0.7_L/fullFocusStitch/lrp8-0.png" />
+            <img class='c2' id="p120 m2 breg0.7 R lgfbpl1" src="7.28.23 lrp8 lgfbpl1 gad2/p120_m2_breg0.7_L/fullFocusStitch/lgfbpl1-0.png" />
+            <img class='c3' id="p120 m2 breg0.7 R gad2" src="7.28.23 lrp8 lgfbpl1 gad2/p120_m2_breg0.7_L/fullFocusStitch/gad2-0.png" />
+            <img class='dapi' id="p120 m2 breg0.7 R dapi" src="7.28.23 lrp8 lgfbpl1 gad2/p120_m2_breg0.7_L/fullFocusStitch/dapi-0.png" />
+        </div>
+
+        <div id="p120 m2 breg1 L" style="display: none;">
+            <label for="dapiCheck" style="color:blue">hide dapi</label>
+            <input type="checkbox" class="dapiCheck" onclick="checkbox('p120 m2 breg1 L dapi')">
+            <label for="lrp8Check" style="color:palevioletred">hide lrp8</label>
+            <input type="checkbox" class="tiam2Check" onclick="checkbox('p120 m2 breg1 L lrp8')">
+            <label for="lgfbpl1Check" style="color:red">hide lgfbpl1</label>
+            <input type="checkbox" class="lgfbpl1Check" onclick="checkbox('p120 m2 breg1 L lgfbpl1')">
+            <label for="gad2Check" style="color:green">hide gad2</label>
+            <input type="checkbox" class="gad2Check" onclick="checkbox('p55 m2 breg1 L gad2')">
+            <img class='c1' id="p120 m2 breg1 L lrp8" src="7.28.23 lrp8 lgfbpl1 gad2/p120_m2_breg1_L/fullFocusStitch/lrp8.png" />
+            <img class='c2' id="p120 m2 breg1 L lgfbpl1" src="7.28.23 lrp8 lgfbpl1 gad2/p120_m2_breg1_L/fullFocusStitch/lgfbpl1.png" />
+            <img class='c3' id="p120 m2 breg1 L gad2" src="7.28.23 lrp8 lgfbpl1 gad2/p120_m2_breg1_L/fullFocusStitch/gad2.png" />
+            <img class='dapi' id="p120 m2 breg1 L dapi" src="7.28.23 lrp8 lgfbpl1 gad2/p120_m2_breg1_L/fullFocusStitch/dapi.png" />
+        </div>
+
+        <div id="p120 m2 breg1.4 L" style="display: none;">
+            <label for="dapiCheck" style="color:blue">hide dapi</label>
+            <input type="checkbox" class="dapiCheck" onclick="checkbox('p120 m2 breg1.4 L dapi')">
+            <label for="lrp8Check" style="color:palevioletred">hide lrp8</label>
+            <input type="checkbox" class="tiam2Check" onclick="checkbox('p120 m2 breg1.4 L lrp8')">
+            <label for="lgfbpl1Check" style="color:red">hide lgfbpl1</label>
+            <input type="checkbox" class="lgfbpl1Check" onclick="checkbox('p120 m2 breg1.4 L lgfbpl1')">
+            <label for="gad2Check" style="color:green">hide gad2</label>
+            <input type="checkbox" class="gad2Check" onclick="checkbox('p120 m2 breg1.4 L gad2')">
+            <img class='c1' id="p120 m2 breg1.4 L lrp8" src="7.28.23 lrp8 lgfbpl1 gad2/p120_m2_breg1.4_L/fullFocusStitch/lrp8.png" />
+            <img class='c2' id="p120 m2 breg1.4 L lgfbpl1" src="7.28.23 lrp8 lgfbpl1 gad2/p120_m2_breg1.4_L/fullFocusStitch/lgfbpl1.png" />
+            <img class='c3' id="p120 m2 breg1.4 L gad2" src="7.28.23 lrp8 lgfbpl1 gad2/p120_m2_breg1.4_L/fullFocusStitch/gad2.png" />
+            <img class='dapi' id="p120 m2 breg1.4 L dapi" src="7.28.23 lrp8 lgfbpl1 gad2/p120_m2_breg1.4_L/fullFocusStitch/dapi.png" />
+        </div>
+    </div>
+    
+</body>
+</html>

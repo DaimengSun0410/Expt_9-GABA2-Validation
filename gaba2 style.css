@@ -1,0 +1,48 @@
+.set{
+    isolation: isolate;
+    display: none;
+}
+
+.c1{
+    position: absolute;
+    z-index: 2;
+    mix-blend-mode: screen;
+    top: 100px;
+    left: 100px;
+    width: 1000px;
+    height: auto;
+    visibility: visible;
+}
+
+.c2{
+    position: absolute;
+    z-index: 1;
+    mix-blend-mode: screen;
+    top: 100px;
+    left: 100px;
+    width: 1000px;
+    height: auto;
+    visibility: visible;
+}
+
+.c3{
+    position: absolute;
+    z-index: 3;
+    mix-blend-mode: screen;
+    top: 100px;
+    left: 100px;
+    width: 1000px;
+    height: auto;
+    visibility: visible;
+}
+
+.dapi{
+    position: absolute;
+    z-index: 0;
+    mix-blend-mode: screen;
+    top: 100px;
+    left: 100px;
+    width: 1000px;
+    height: auto;
+    visibility: visible;
+}
